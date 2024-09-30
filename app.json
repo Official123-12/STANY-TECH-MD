@@ -1,9 +1,9 @@
 {
-  "name":"𝗟𝗨𝗖𝗞𝗬 𝗠𝗗 𝗩𝟳 𝗨𝗣𝗗𝗔𝗧𝗘 𝗕𝗬 𝗠𝗘",
-  "description":"Best WhatsApp Bot Developed By Fredie Ezra Contact Us 255686745716,255764182801,255620814108,255752593977 Thank you for choose Lucky🍀 MD V5",
+  "name":"𝔹𝕆ℕ𝕀ℙℍ𝔸ℂ𝔼 𝕄𝔻 𝕌ℙ𝔻𝔸𝕋𝔼 𝔹𝕐 𝕄𝔼",
+  "description":"Best WhatsApp Bot Developed By Boniphace Tech Contact Us 255716661569,255767528416 Thank you for choose BONIPHACE 💥 MD",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/qh500b.jpg",
-  "repository":"https://github.com/Fred1e/LUCKY_MD",
+  "logo":"1https://files.catbox.moe/u41d8b.jpeg",
+  "repository":"https://github.com/boniphace478/BONIPHACE-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝗟𝗨𝗖𝗞𝗬 𝗠𝗗 𝗩𝟳",
+      "value":"BONIPHACE💥MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/g73xvl.jpeg,https://i.imgur.com/ecRS5BQ.jpeg",
+      "value":"https://files.catbox.moe/u41d8b.jpeg",
       "required":false
        
      },
@@ -74,21 +74,21 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "ғʀᴇᴅɪᴇ ᴛᴇᴄʜ"
+    "value": "Boniphace Tech 💥"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255686745716,255764182801,255620814108,255752593977"
+    "value": "255716661569,255767528416"
 	  
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "5"
+    "value": "3"
   },
   "STARTING_BOT_MESSAGE":
   {
