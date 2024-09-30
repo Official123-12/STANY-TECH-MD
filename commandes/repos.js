@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "🎉", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/boniphace478/BONIPHACE-MD';
-  const img = 'https://telegra.ph/file/1c7db35f3445430d1bbee.jpg';
+  const img = 'https://files.catbox.moe/u41d8b.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -29,7 +29,7 @@ this is* *Boniphace_md.*\n support our channel *by*,  https://whatsapp.com/chann
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *Boniphace tech*
+👨‍💻 *OWNER:* *Boniphace Tech*
 💞 *THEME:* *BONIPHACE*
 🥰*ONLY GOD CAN JUDGE ME!👑*
 __________________________________
