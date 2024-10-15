@@ -1,9 +1,9 @@
 {
-  "name":"ALPHA-MD",
-  "description":"Best whatsapp bot developed by keithkeizzah",
+  "name":"BONIPHACE-MD",
+  "description":"Best whatsapp bot developed by Boniphace Tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/0c351a67f1dffd1f34cf5.jpg",
-  "repository":"https://github.com/keithkeizzah/ALPHA-MD1",
+  "logo":"https://files.catbox.moe/3vzjsl.jpeg",
+  "repository":"https://github.com/boniphace478/BONIPHACE-XMD-1",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝐀𝐋𝐏𝐇𝐀-𝐌𝐃",
+      "value":"BONIPHACE-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/0c351a67f1dffd1f34cf5.jpg",
+      "value":"https://files.catbox.moe/3vzjsl.jpeg",
       "required":false
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝐊𝐞𝐢𝐭𝐡"
+    "value": "Boniphace"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254796299159"
+    "value": "255716661569,255767528416"
   },
     "WARN_COUNT":
   {
