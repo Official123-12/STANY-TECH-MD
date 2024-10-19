@@ -52,7 +52,10 @@ Hello ${nomAuteurMessage},,
 ✔Tap on heroku deploy tab  given there. First thing you should do is getting your *Heroku Api Key* insert it to the required space .
 ✔Enter the valid *heroku app name* and again repeat it to the blank space asking for app name accordingly.Fill everything and press on the below tab Deploy
 ✔In some heroku apps the buld logs might not show but it will eventually deploy 
-✔Now click on this devs number and give alpha md owner credits https://wa.me/255716661569
+✔Now click on this devs number and give Boniphace md owner credits 
+
+
+https://wa.me/255716661569
 ╰────────────────────☆`;
 let menuMsg = `
      𝐑𝐞𝐠𝐚𝐫𝐝𝐬 𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄 𝐓𝐄𝐀𝐌`;
