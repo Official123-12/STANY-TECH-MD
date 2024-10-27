@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -80,7 +80,7 @@
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
+    "required": true,
     "value": "255716661569"
   },
     "WARN_COUNT":
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
