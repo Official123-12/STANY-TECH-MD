@@ -49,8 +49,8 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
-      "required":false
+      "value":"HRKU-264c2910-087d-4a4a-967a-faa2a37813a5",
+      "required":true 
     }
 	,
     "HEROKU_API_KEY": {
