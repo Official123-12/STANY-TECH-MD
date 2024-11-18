@@ -24,12 +24,12 @@
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "BLOCK_ALL": {
       "description": "Turn this 'on' if you want the bot to automatically block ANYONE WHO SENDS YOU A MESSAGE. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -99,12 +99,12 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls. Type 'on' to activate or 'off' to deactivate.",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "AUTO_REACTION": {
