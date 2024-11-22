@@ -5,7 +5,7 @@ const path = require("path");
 
 zokou({
   nomCom: "site-screenshot",
-  categorie: "FAMOUS-TECH🇭🇹",
+  categorie: "BONIPHACE-MD",
   reaction: "📸",
   desc: "Faire le screenshot du site voulu",
   alias: ["ss"]
@@ -18,7 +18,7 @@ zokou({
 
   const url = arg[0];
 
-  zk.sendMessage(origineMessage, { text: "*_COMMANDE DEVELOPPÉ Par FAMOUS-TECH, un développeur HAÏTIEN🇭🇹_*" });
+  zk.sendMessage(origineMessage, { text: "*_COMMANDE DEVELOPPÉ Par BONIPHACE-TECH, un développeur HAÏTIEN🇹🇿_*" });
 
   try {
     const browser = await puppeteer.launch();
@@ -30,7 +30,7 @@ zokou({
 
     zk.sendMessage(origineMessage, {
      image: fs.createReadStream(screenshotPath) 
-caption: `*BY HACKING-MD*`,
+caption: `*BY BONIPHACE-MD*`,
       
     });
 
