@@ -4,7 +4,7 @@ const fs = require("fs");
 
 zokou({
   nomCom: "spload",
-  categorie: "FAMOUS-MUSIQUE",
+  categorie: "BONIPHACE-MD",
   reaction: "🎧",
   desc: "Télécharge une musique à partir d'un lien Spotify",
   alias: ["spdl"]
@@ -46,7 +46,7 @@ zokou({
             contextInfo: {
               externalAdReply: {
                 title: result.title,
-                body: 'By FAMOUS-TECH🇭🇹💫',
+                body: 'By BONIPHACE-TECH🇹🇿💫',
                 renderLargerThumbnail: true,
                 thumbnailUrl: result.thumbnail,
                 mediaUrl: result.url,
@@ -63,7 +63,7 @@ zokou({
             contextInfo: {
               externalAdReply: {
                 title: result.title,
-                body: 'BY FAMOUS-TECH🇭🇹💫',
+                body: 'BY BONIPHACE-TECH 🇹🇿💫',
                 renderLargerThumbnail: true,
                 thumbnailUrl: result.thumbnail,
                 mediaUrl: result.url,
@@ -78,7 +78,7 @@ zokou({
       } finally {
         fs.unlinkSync('./spotifysave.mp3');
         repondre('*Téléchargement terminé.\nMerci pour votre patience*');
-        repondre('*Cette commande a été développée par FAMOUS-TECH un développeur Haïtien*')
+        repondre('*Cette commande a été développée par BONIPHACE-TECH un développeur Haïtien*')
       }
     }).catch(error => {
       if (error.message == 'Timeout') {
