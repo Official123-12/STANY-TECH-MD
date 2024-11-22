@@ -5,7 +5,7 @@ const path = require("path");
 const { exec } = require("child_process");
 
 zokou({
-  nomCom: "update",
+  nomCom: "upgrade",
   categorie: "Maintenance",
   reaction: "🔄",
   desc: "Check for new commits and update the bot",
@@ -13,10 +13,10 @@ zokou({
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, msgRepondu, arg, repondre, nomAuteurMessage } = commandeOptions;
 
-  zk.sendMessage(origineMessage, { text: "*COMMANDE DEVELOPPÉ Par FAMOUS-TECH, un développeur HAÏTIEN🇭🇹*" });
+  zk.sendMessage(origineMessage, { text: "*COMMANDE DEVELOPPÉ Par BONIPHACE-TECH, un développeur HAÏTIEN🇹🇿*" });
 
   try {
-    const repoUrl = "https://api.github.com/repos/HACKING995/HACKING--MD9";
+    const repoUrl = "https://api.github.com/repos/boniphace478/BONIPHACE-XMD-1";
     const commitsUrl = `${repoUrl}/commits`;
 
     // Cette partie cherche les commits
