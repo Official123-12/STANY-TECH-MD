@@ -3,7 +3,7 @@ const axios = require("axios");
 
 zokou({
   nomCom: "url4",
-  categorie: "FAMOUS-TECH",
+  categorie: "BONIPHACE-TECH",
   reaction: "🌐",
   desc: "Téléverse une image vers Catbox et obtient l'URL",
   alias: ["up"]
