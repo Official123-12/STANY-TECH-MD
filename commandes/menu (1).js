@@ -92,10 +92,10 @@ const date = moment().format('DD/MM/YYYY');
     if (commandeOptions.categorie) {
         const categorieSelectionnee = commandeOptions.categorie;
         if (coms[categorieSelectionnee]) {
-            menuMsg += `╭────💫${categorieSelectionnee} ❏ ✧────`;
+            menuMsg += `╭────🇹🇿${categorieSelectionnee} ❏ ✧────`;
             for (const cmd of coms[categorieSelectionnee]) {
                 menuMsg += `
-*|🇭🇹│ ${cmd}*`;
+*|✪│ ${cmd}*`;
             }
             menuMsg += `
 ╰═════════════⊷\n`;
@@ -104,10 +104,10 @@ const date = moment().format('DD/MM/YYYY');
         }
     } else {
         for (const cat in coms) {
-            menuMsg += `╭────💫${cat} ❏ ✧────`;
+            menuMsg += `╭────🇹🇿${cat} ❏ ✧────`;
             for (const cmd of coms[cat]) {
                 menuMsg += `
-*|🇭🇹│ ${cmd}*`;
+*|✫│ ${cmd}*`;
             }
             menuMsg += `
 ╰═════════════⊷ \n`;
@@ -117,9 +117,9 @@ const date = moment().format('DD/MM/YYYY');
     menuMsg += `
 ◇            ◇
 *»»————— ★ —————««*
-"Pour utiliser une commande, insérez ${prefixe} suivi du nom de la commande."
+" 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓."
  
-    *𝑫é𝒗𝒆𝒍𝒐𝒑𝒑é 𝒑𝒂𝒓 𝑭𝑨𝑴𝑶𝑼𝑺-𝑻𝑬𝑪𝑯*
+    *𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄 𝐓𝐄𝐀𝐌*
 *»»—————    ★   —————««*
 `;
 
@@ -127,14 +127,14 @@ const date = moment().format('DD/MM/YYYY');
 
     if (lien.match(/\.(mp4|gif)$/i)) {
         try {
-            zk.sendMessage(dest, { video: { url: lien }, caption: infoMsg + menuMsg, footer: "Je suis *Famous-MD*, développé par FAMOUS-TECH" , gifPlayback : true }, { quoted: ms });
+            zk.sendMessage(dest, { video: { url: lien }, caption: infoMsg + menuMsg, footer: "Je suis *Boniphace-MD*, développé par BONIPHACE-TECH" , gifPlayback : true }, { quoted: ms });
         } catch (e) {
             console.log("🥵🥵 Menu erreur " + e);
             repondre("🥵🥵 Menu erreur " + e);
         }
     } else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
         try {
-            zk.sendMessage(dest, { image: { url: lien }, caption: infoMsg + menuMsg, footer: "Je suis *Famous-MD*, développé par FAMOUS-TECH" }, { quoted: ms });
+            zk.sendMessage(dest, { image: { url: lien }, caption: infoMsg + menuMsg, footer: "Je suis *Boniphace-MD*, développé par BONIPHACE-TECH" }, { quoted: ms });
         } catch (e) {
             console.log("🥵🥵 Menu erreur " + e);
             repondre("🥵🥵 Menu erreur " + e);
