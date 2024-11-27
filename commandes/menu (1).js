@@ -1,12 +1,12 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { famous } = require(__dirname + "/../framework/famous");
+const { famous } = require(__dirname + "/../framework/zokou"");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
-const s = require(__dirname + "/../config");
+const s = require(__dirname + "/../set");
 
-famous({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptions) => {
+famous({ nomCom: "menu5", categorie: "Général" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
     let { cm } = require(__dirname + "/../framework/famous");
     var coms = {};
