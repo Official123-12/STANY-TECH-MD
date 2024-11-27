@@ -66,26 +66,26 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭────✧${s.BOT}✧────◆
-𝗙𝗔𝗠𝗢𝗨𝗦-𝗠𝗗 𝑽1
+𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄~𝐌𝐃
      ╭──────────────
-|❏│   *_Préfixe_* : ${s.PREFIXE}
+|❏│   *_Prefix_* : ${s.PREFIXE}
 |❏│   *_Propriétaire_* : ${s.OWNER_NAME}
 |❏│   _Mode_ : ${mode}
 |❏│   *_Commandes_* : ${cm.length}
 |❏│   *_Date_* : ${date}
-|❏│   *_Heure_* : ${temps}
+|❏│   *_Hour_* : ${temps}
 |❏│   *_RAM_* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 |❏│   *_Plateforme_* : ${os.platform()}
-|❏│   *_Développeur_* : *FAMOUS-TECH*
-|❏│   *_PAYS_ : HAÏTI*
-|❏|    𝘃𝗲𝗿𝘀𝗶𝗼𝗻    : 𝘝1.0.0
+|❏│   *_Developer_* : *𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄~𝐓𝐄𝐂𝐇*
+|❏│   *_Nation_ : 𝐓𝐀𝐍𝐙𝐀𝐍𝐈𝐀*
+|❏|    𝘃𝗲𝗿𝘀𝗶𝗼𝗻    : 𝘝10.0.0
     ╰───────────────
-╰─────✧𝗙𝗔𝗠𝗢𝗨𝗦-𝗠𝗗✧─────◆ \n\n`;
+╰─────✧𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄~𝐌𝐃✧─────◆ \n\n`;
     
     let menuMsg = `
-👋 Salut ${nomAuteurMessage}, je te présente le menu de FAMOUS-MD 👋
+👋 𝐎𝐳𝐚𝐚𝐚𝐚 ${nomAuteurMessage}, 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄~𝐌𝐃 👋
 
-*Liste des commandes de FAMOUS-MD:*
+*𝐈'𝐌 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 𝐁𝐎𝐍𝐈𝐏𝐇𝐀𝐂𝐄:*
 ◇                             ◇
 `;
 
