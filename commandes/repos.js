@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "🎉", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/boniphace478/BONIPHACE-MD';
-  const img = 'https://i.imgur.com/Q1MJcp6.jpeg';
+  const img = 'https://files.catbox.moe/mvjmkl.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -31,7 +31,7 @@ this is* *Boniphace_md.*\n support our channel *by*,  https://whatsapp.com/chann
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *Boniphace Tech*
 💞 *THEME:* *BONIPHACE*
-🥰*ONLY GOD CAN JUDGE ME!👑*
+🥰*DO NOT DEPEND ON ANYONE!👑*
 __________________________________
             *Made With Boniphace Tech*`;
 
