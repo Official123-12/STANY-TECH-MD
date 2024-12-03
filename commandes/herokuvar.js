@@ -201,7 +201,7 @@ zokou({
   await _0x2a77ba("That Heroku var is changing,The bot is Rebooting....");
 });
 zokou({
-  'nomCom': "getallvar",
+  'nomCom': "allvar",
   'categorie': "HEROKU"
 }, async (_0x2e8484, _0x1c9c2e, _0x5a7b4e) => {
   const {
@@ -221,7 +221,7 @@ zokou({
   });
   let _0x3ec384 = "/apps/" + s.HEROKU_APP_NAME;
   let _0x1cf334 = await _0x4061b1.get(_0x3ec384 + "/config-vars");
-  let _0x170cc9 = "*LUCKY-MD HEROKU VARIABLES*\n\n";
+  let _0x170cc9 = "*BONIPHACE-MD HEROKU VARIABLES*\n\n";
   for (vr in _0x1cf334) {
     _0x170cc9 += "⚡ *" + vr + "* " + "= " + _0x1cf334[vr] + "\n";
   }
@@ -264,7 +264,7 @@ zokou({
   }
 });
 zokou({
-  'nomCom': "updates",
+  'nomCom': "update2",
   'categorie': "HEROKU"
 }, async (_0x3481f8, _0x5a4ea2, _0x15bcc3) => {
   const {
